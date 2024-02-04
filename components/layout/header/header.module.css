@@ -1,0 +1,21 @@
+.container {
+  color: var(--text-p);
+  background-color: var(--primary);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.center {
+  flex-grow: 18 !important;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.logo {
+  text-align: center;
+  cursor: pointer;
+  padding-bottom: 6px;
+}

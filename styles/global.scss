@@ -1,0 +1,43 @@
+$button-border-color: var(--secondary);
+$button-hover-border-color: var(--secondary-dark);
+
+$card-shadow: 0 0.5em 0.8em -0.125em rgba(10, 10, 10, 0.06),
+  0 0px 0 1px rgba(10, 10, 10, 0.02);
+
+$control-radius: 0px;
+
+$input-border-color: var(--secondary);
+$input-hover-border-color: var(--secondary-dark);
+$input-focus-border-color: var(--secondary-dark);
+$input-focus-box-shadow-size: none;
+$input-radius: 0px;
+
+$card-radius: 0px;
+
+@import "~bulma/bulma";
+
+:root {
+  --primary: #ffe01b;
+  --secondary: #007c89;
+  --secondary-light: #009cad;
+  --secondary-lighter: #009cad3f;
+  --text-p: #202020;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  color: #202020;
+}
+
+a,
+a:hover {
+  color: var(--text-p);
+}
+
+@media only screen and (max-width: 768px) {
+  input::placeholder {
+    font-size: 1rem;
+  }
+}

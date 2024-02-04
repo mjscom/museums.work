@@ -1,0 +1,28 @@
+.resultsWrapper {
+  max-width: 660px;
+  margin: 0 auto 0 auto;
+}
+
+@media only screen and (min-width: 1388.93px) {
+  .resultsWrapper {
+    margin-left: calc(50vw - 530px + 0.95rem);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .gap {
+    margin: 0 !important;
+  }
+}
+
+.mapWrapper {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .mapWrapper {
+    height: 50vh;
+  }
+}

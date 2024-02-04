@@ -1,0 +1,11 @@
+.inner {
+  width: 50%;
+  margin: auto;
+  line-height: 1.3;
+}
+
+@media only screen and (max-width: 768px) {
+  .inner {
+    width: 80%;
+  }
+}

@@ -1,0 +1,21 @@
+.card {
+  transition: all 0.2s ease-in-out;
+  color: var(--text-p);
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+}
+
+.cardDesc {
+  min-height: 104px;
+}
+
+.title {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  padding-bottom: 0.14rem;
+}

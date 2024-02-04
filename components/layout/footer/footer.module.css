@@ -1,0 +1,20 @@
+.footer {
+  min-height: 100px;
+  background-color: rgb(241, 241, 241);
+  z-index: 135;
+  position: relative;
+}
+
+.li {
+  width: 89px;
+
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #c5c5c5;
+
+  cursor: pointer;
+}
+
+.li:hover {
+  font-weight: 600;
+}

@@ -1,0 +1,76 @@
+.search {
+  background-color: var(--secondary);
+  transition: background-color 0.5s;
+}
+
+.search:hover {
+  background-color: var(--secondary-light);
+}
+
+.ggSearch {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 16px;
+  height: 16px;
+  border: 2px solid;
+  border-radius: 100%;
+  margin-left: -4px;
+  margin-top: -4px;
+  color: white;
+}
+
+.ggSearch::after {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 3px;
+  width: 2px;
+  height: 8px;
+  background: currentColor;
+  transform: rotate(-45deg);
+  top: 10px;
+  left: 12px;
+}
+
+.item {
+  padding: 7px 10px 7px 10px;
+  width: 100%;
+  color: var(--text-p);
+}
+
+.item:hover {
+  border-color: var(--secondary);
+  background-color: var(--secondary);
+  color: white;
+}
+
+.list {
+  border-left: 1px solid var(--secondary);
+  border-right: 1px solid var(--secondary);
+  border-bottom: 1px solid var(--secondary);
+
+  background: white;
+  z-index: 29;
+  position: absolute;
+
+  max-height: 350px;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+  visibility: hidden;
+  text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 768px) {
+  .list {
+    max-width: 100%;
+  }
+}
+
+.listShow {
+  margin-top: -0.75rem;
+  visibility: visible;
+}

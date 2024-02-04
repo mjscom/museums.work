@@ -1,0 +1,23 @@
+.descWrapper {
+  width: 75%;
+  line-height: 1.3;
+}
+
+@media only screen and (max-width: 768px) {
+  .descWrapper {
+    width: 100%;
+  }
+}
+
+.hide {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.show {
+  color: #0000005d;
+  cursor: pointer;
+  text-decoration: underline;
+}

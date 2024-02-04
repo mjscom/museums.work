@@ -1,0 +1,4 @@
+.popup {
+  cursor: pointer;
+  color: var(--text-p);
+}

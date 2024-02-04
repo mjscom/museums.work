@@ -1,0 +1,17 @@
+.name {
+  color: #222222;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.date {
+  color: #7a7a7a;
+  font-size: 14px;
+}
+
+.comment {
+  font-weight: 500;
+  font-size: 16px;
+  color: #222222;
+  line-height: 1.3;
+}
